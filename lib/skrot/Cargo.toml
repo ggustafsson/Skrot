@@ -1,8 +1,10 @@
 [package]
 name = "skrot"
+description = "Miscellaneous functions that does not warrant its own module"
 version = "0.1.0"
 authors = ["Göran Gustafsson <gustafsson.g@gmail.com>"]
 license = "BSD-3-Clause"
+repository = "https://github.com/ggustafsson/Skrot"
 edition = "2021"
 
 [dependencies]
