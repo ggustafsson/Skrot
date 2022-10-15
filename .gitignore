@@ -1,2 +1,2 @@
 target/
-lib/skrot/Cargo.lock
+lib/*/Cargo.lock
