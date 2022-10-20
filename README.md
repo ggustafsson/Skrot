@@ -1,4 +1,4 @@
-# ⚙️  Skrot
+# 🔩 Skrot
 
 - Miscellaneous Rust programs.
 
