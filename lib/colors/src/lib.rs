@@ -73,37 +73,35 @@ use std::env;
 
 /// Terminal style attributes.
 #[derive(Default)]
-#[rustfmt::skip]
 pub struct Attributes {
-    pub blink:     String,
-    pub bold:      String,
-    pub italic:    String,
-    pub reset:     String,
-    pub reverse:   String,
+    pub blink: String,
+    pub bold: String,
+    pub italic: String,
+    pub reset: String,
+    pub reverse: String,
     pub underline: String,
 }
 
 /// Terminal background & foreground colors.
 #[derive(Default)]
-#[rustfmt::skip]
 pub struct Colors {
-    pub black:   String,
-    pub blue:    String,
-    pub cyan:    String,
-    pub green:   String,
+    pub black: String,
+    pub blue: String,
+    pub cyan: String,
+    pub green: String,
     pub magenta: String,
-    pub red:     String,
-    pub white:   String,
-    pub yellow:  String,
+    pub red: String,
+    pub white: String,
+    pub yellow: String,
 
-    pub bright_black:   String,
-    pub bright_blue:    String,
-    pub bright_cyan:    String,
-    pub bright_green:   String,
+    pub bright_black: String,
+    pub bright_blue: String,
+    pub bright_cyan: String,
+    pub bright_green: String,
     pub bright_magenta: String,
-    pub bright_red:     String,
-    pub bright_white:   String,
-    pub bright_yellow:  String,
+    pub bright_red: String,
+    pub bright_white: String,
+    pub bright_yellow: String,
 }
 
 /// Data structure containing all attributes and colors.
