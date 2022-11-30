@@ -61,8 +61,8 @@
 //! Usage:
 //!
 //! ```rust,ignore
-//! let term = colors::init_auto();
-//! println!("{}Hello, 世界{}", term.fg.red, term.attr.reset);
+//! let ansi = colors::init_auto();
+//! println!("{}Hello, 世界{}", ansi.fg.red, ansi.attr.reset);
 //! ```
 //!
 //! Author: Göran Gustafsson <gustafsson.g@gmail.com>
