@@ -112,7 +112,7 @@ pub struct Codes {
     pub fg: Colors,
 }
 
-/// Check if running inside TTY using to libc isatty().
+/// Check if running inside of TTY using libc isatty().
 fn is_tty() -> bool {
     unsafe { libc::isatty(libc::STDOUT_FILENO) != 0 }
 }
