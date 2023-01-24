@@ -15,6 +15,5 @@
 ## Sister Projects
 
 - [Golang: Godis](https://github.com/ggustafsson/godis)
-- [Haskell: Haxxell](https://github.com/ggustafsson/Haxxell)
 - [Python: Pyttipanna](https://github.com/ggustafsson/Pyttipanna)
 - [Zsh: Kjell](https://github.com/ggustafsson/Kjell)
